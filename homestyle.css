@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #ff8409;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    background-image: url("https://www.itchotels.com/content/dam/itchotels/in/umbrella/welcomHotel/hotels/welcomhotelchennai/images/overview-landing-page/headmast/desktop/lobby.jpg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+#home{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 25px;
+    margin-top: 15%;
+    background-color: rgb(65, 124, 119);
+
+
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    ;
+    height: 35px;
+    background-color: cyan;
+    background: transparent;
+    border-bottom: 1px solid rgb(87, 218, 6);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.btn1 {
+    width: 160px;
+    height: 40px;
+    background: rgb(210, 235, 47);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-family: Arial;
+}
